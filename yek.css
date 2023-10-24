@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #007a8d;
+    background: #F9E0BB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,9 +28,6 @@ body {
     min-width: 370px;
 }
 
-.card-container {
-    display: flex;
-}
 
 .left {
     flex: 1;
@@ -47,30 +44,12 @@ body {
     align-items: center;
 }
 
-.left {
-    display: flex;
-    flex: 1;
-    height: 522px;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-}
 
-
-.left-container {
-    height: 50%;
-    width: 80%;
-    text-align: center;
-    line-height: 22px
-}
-
-.left p {
-    font-size: 0.9rem;
-}
 
 h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color:#B2533E;
 }
 
 .right-container {
@@ -96,8 +75,8 @@ textarea:focus {
 
 button {
     border-radius: 20px;
-    border: 1px solid #00b4cf;
-    background-color: #00b4cf;
+    border:none;
+    background-color: #C38154;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
@@ -117,43 +96,25 @@ textarea {
     resize: none;
 }
 
-/* responsive */
-
-@media only screen and (max-width: 600px){
-    .left {
-        display: none;
-    }
-
-    .lg-view {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .sm-view {
-        display: none;
-    }
-}
-
 
 .input-form {
     display:flex;
     margin: 3px 10px 5px 10px;
 }
 
-.input-form > label {
+.input-form  label {
     width: auto;
     float: left;
     margin-top: 9px;
     margin-left: 10px;
 }
 
-.input-form > input {
+.input-form  input {
     width:auto;
     float:left;
 }
 
-.input-form > select {
+.input-form  select {
     background-color: #eee;
     border: none;
     padding: 12px 15px;
