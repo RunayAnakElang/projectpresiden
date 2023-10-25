@@ -11,7 +11,7 @@
 img {
   width: 15%;
   display: flex;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 a {
   text-decoration: none;
