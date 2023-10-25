@@ -22,7 +22,7 @@ body {
   background-color: #f9e0bb;
 }
 
-.btn {
+.btn1 {
   padding: 1rem 2rem;
   font-size: 1rem;
   color: #fff;
@@ -32,7 +32,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.btn:hover {
+.btn1:hover {
   background-color: #f9e0bb;
 }
 
@@ -86,10 +86,7 @@ header .image::before {
   opacity: 0.2;
   z-index: -100;
 }
-header .image img {
-  max-width: 600px;
-  margin: auto;
-}
+
 
 section .header {
   margin-bottom: 1rem;
@@ -104,6 +101,11 @@ section .header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+}
+.features .img {
+border-radius: 40px;
+width: 90%;
+padding-left: 20px;"
 }
 
 .features .card {
@@ -136,11 +138,11 @@ section .header {
   font-weight: 600;
 }
 
-.features .card p {
-  color: #ccc;
+.features .card ul {
+  color: #fff;
   margin-bottom: 1rem;
+  margin-left: 1rem;
 }
-
 .features .card a {
   color: #fff;
   transition: all 0.3s ease;
@@ -205,42 +207,4 @@ footer .column > a:hover {
   color: #1d4ed8;
 }
 
-@media (width < 900px) {
-  .nav-links {
-    display: none;
-  }
-  header {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  header .image {
-    grid-area: 1/1/2/2;
-  }
-  .features {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .pricing {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  footer {
-    grid-template-columns: 1fr 200px;
-  }
-}
 
-@media (width < 600px) {
-  header .image::before {
-    display: none;
-  }
-
-  .features {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .pricing {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  footer {
-    grid-template-columns: 1fr 150px;
-  }
-  
-}
